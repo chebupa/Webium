@@ -10,6 +10,7 @@ nav {
 
     display: flex;
 	justify-content: space-between;
+    align-items: center;
 
 	width: 100%;
 	/* height: var(--headerHeight); */
@@ -43,7 +44,12 @@ nav p {
     font-size: 0.85rem;
 }
 
-header {
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* header {
 	position: fixed;
 	width: 100%;
 	height: var(--headerHeight);
@@ -57,8 +63,6 @@ header {
 	justify-content: space-between;
 }
 
-
-
 header .links a {
     color: var(--tertiaryColor);
     font-size: var(--font-size-callout);
@@ -69,7 +73,7 @@ header .links a {
 
 header .links a:hover {
     color: var(--primaryColor);
-}
+} */
 
 /**************************
     2.0 FOOTER **********
