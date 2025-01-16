@@ -422,6 +422,10 @@ section .sponsor .links {
     section .github.projects .githubProject .links {
         gap: 0.5em;
     }
+    
+    .email-block input {
+        width: 200px;
+    }
 }
 
 
