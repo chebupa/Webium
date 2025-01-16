@@ -317,6 +317,40 @@ section .sponsor .links {
     margin-top: 1em;
 }
 
+#map {
+    border-radius: 24px;
+}
+
+.email-block {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 10px;
+}
+
+.email-block input {
+    width: 400px;
+    height: 50px;
+    padding: 12px;
+    color: var(--primaryColor);
+    font-size: large;
+    background-color: var(--primaryBackground);
+    border-style: solid;
+    border-radius: 12px;;
+    border-width: 1px;
+    border-color: var(--primaryColor)
+}
+
+.email-block button {
+    height: 50px;
+    padding: 18px;
+    border: 0px;
+    background-color: var(--accentColor);
+    color: var(--primaryAlternateColor);
+    font-size: 0.75rem;
+    border-radius: 12px;
+}
+
 /**************************
  11.0 RESPONSIVE **********
  **************************/

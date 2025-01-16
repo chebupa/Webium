@@ -1,3 +1,4 @@
+
 // smooth block appear script
 
 function onEntry(entry) {

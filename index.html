@@ -52,7 +52,7 @@
   <body>
     <nav>
       <div>
-        <img src="images/chebupa/chebupa_transp_zoom.webp" alt="chebupa">
+        <img src="images/webium_logo.svg" alt="chebupa">
         <p>Webium</p>
       </div>
     </nav>
@@ -60,8 +60,8 @@
     <main>
       <section class="hero element-animation">
         <picture>
-          <source srcset="images/chebupa/chebupa.webp" type="image/webp">
-          <img src="images/avatar.png" alt="Lukas Pistrol Memoji">
+          <source srcset="images/webium_logo.svg" type="image/webp">
+          <img src="images/webium_logo.svg" alt="avatar">
         </picture>
 
         <p class="greeting">Hey there, this is ...</p>
@@ -243,13 +243,20 @@
 
       <section>
         <div class="sponsor element-animation">
-          <h2>Support our work</h2>
+          <h2>Contact us</h2>
 
           <p>If you like our work, consider <b>buying us a coffee</b> or <b>sponsoring us on Donation Alerts.</b>
             <br>We would really appreciate it!
           </p>
 
-          <div class="links">
+          <div class="email-block">
+            <input id="email-field" type="email" placeholder="email">
+            <button id="email-button">Send</button>
+          </div>
+
+          <iframe id="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae74a6c3f6a30c16d1013d47d6ac45c040add1618560c3d796af815b01e6a574b&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+          <!-- <div class="links">
             <a href="https://www.buymeacoffee.com/chebupa" target="_blank" rel="noreferrer">
               <img src="images/donation/bmc-button.svg" alt="Buy me a coffee" width="210" height="59">
             </a>
@@ -259,7 +266,7 @@
             <a href="https://www.donationalerts.com/r/chebupa" target="_blank" rel="noreferrer">
               <img src="images/donation/DA_Logo_Color.svg" alt="donationalerts" width="210" height="59">
             </a>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
@@ -272,5 +279,6 @@
     </footer>
 
     <script src="js/smoothAppear.js"></script>
+    <script src="js/emailSend.js"></script>
   </body>
 </html>
