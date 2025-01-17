@@ -135,6 +135,8 @@ section.inverted p {
     color: var(--secondaryColorDark) !important;
 }
 
+
+
 /**************************
  4.0 HERO **********
  **************************/
@@ -166,6 +168,7 @@ section.hero h1 {
     margin-bottom: 0.5em;
     font-size: var(--font-size-h2);
 }
+
 
 /**************************
  5.0 BUTTONS **********
@@ -246,7 +249,7 @@ section .project .text .tag.development {
  7.0 GITHUB **********
  **************************/
 
-section .github {
+section .prices {
     width: var(--content-width);
     margin: 0 auto;
     padding: var(--content-padding);
@@ -256,13 +259,43 @@ section .github {
     text-align: center;
 }
 
-section .github.projects {
+.prices-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 24px;
+}
+
+.price-block {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: var(--secondaryBackground);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.price-block .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* section .prices.projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
-}
+} */
 
-section .github.projects .githubProject {
+/* section .github.projects .githubProject {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -273,9 +306,9 @@ section .github.projects .githubProject {
     padding: 1em;
     text-align: start;
     transition: scale 0.2s ease-in-out;
-}
+} */
 
-section .github.projects .githubProject:hover {
+/* section .github.projects .githubProject:hover {
     scale: 1.05;
     transition: scale 0.2s ease-in-out;
 }
@@ -286,7 +319,7 @@ section .github.projects .githubProject p {
 
 section .github.projects .githubProject h3 {
     color: var(--primaryColor) !important;
-}
+} */
 
 section .github.projects .githubProject .links {
     display: flex;

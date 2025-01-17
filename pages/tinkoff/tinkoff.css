@@ -135,6 +135,22 @@ section.inverted p {
     color: var(--secondaryColorDark) !important;
 }
 
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/tinkoff_office.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section h1 {
+    color: white;
+}
+
 /**************************
  4.0 HERO **********
  **************************/
@@ -166,6 +182,57 @@ section.hero h1 {
     margin-bottom: 0.5em;
     font-size: var(--font-size-h2);
 }
+
+.screenshots-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screenshots-section h1 {
+    margin-top: 1rem;
+}
+
+.screenshots-section__images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    overflow: auto;
+    padding: 3rem;
+}
+
+.screenshots-section__images .image {
+    width: 320px;
+    height: 650px;
+    flex-shrink: 0;
+    /* aspect-ratio: 3/4; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    box-shadow: var(--cardShadow);
+    /* transition: scale 0.2s ease-in-out; */
+}
+
+.screenshots-section__images .screenshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondaryBackground);
+    padding: 1rem;
+    gap: 0.5rem;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* .screenshots-section__images .screenshot:hover {
+    scale: 1.05;
+    transition: all 0.2s ease-in-out;
+} */
 
 /**************************
  5.0 BUTTONS **********
